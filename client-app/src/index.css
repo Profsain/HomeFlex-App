@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Red+Hat+Display:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+p{
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}

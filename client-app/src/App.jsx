@@ -1,10 +1,11 @@
-
+import Welcome from "./components/Welcome"
+import Features from "./components/Features"
 function App() {
-
+  
   return (
     <>
-      <h1>Home Connect</h1>
-      <p>Renting and buying properties make easy!</p>
+    <Welcome />
+    <Features />
     </>
   )
 }
