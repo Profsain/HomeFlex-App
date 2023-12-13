@@ -1,10 +1,12 @@
+import Navigation from "./Components/Navbar/Navbar"
+import Slider from "./Components/Slider/Slider"
 
 function App() {
 
   return (
     <>
-      <h1>Home Connect</h1>
-      <p>Renting and buying properties make easy!</p>
+      <Navigation />
+      <Slider />
     </>
   )
 }
