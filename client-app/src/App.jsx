@@ -1,11 +1,12 @@
-import Welcome from "./components/Welcome"
-import Features from "./components/Features"
+import Newsletter from "./components/Newsletter"
+import Form from "./components/Form"
+import Header from "./components/Header"
 function App() {
-  
   return (
     <>
-    <Welcome />
-    <Features />
+    <Header />
+    <Form />
+    <Newsletter />
     </>
   )
 }
