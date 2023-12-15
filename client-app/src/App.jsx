@@ -1,10 +1,12 @@
+import Footer from "./Footer/Footer"
+import Cards from "./Testimonial/Cards"
 
 function App() {
 
   return (
     <>
-      <h1>Home Connect</h1>
-      <p>Renting and buying properties make easy!</p>
+      <Cards/>
+      <Footer/>
     </>
   )
 }
