@@ -1,11 +1,11 @@
 import Newsletter from "./components/Newsletter"
-import Form from "./components/Form"
 import Header from "./components/Header"
+import Body from "./components/Body"
 function App() {
   return (
     <>
-    <Header />
-    <Form />
+     <Header />
+    <Body />
     <Newsletter />
     </>
   )
