@@ -5,7 +5,7 @@ const Welcome = () => {
     <div>
         <section className='d-flex flex-column align-items-center p-5' style={{gap: "25px", backgroundColor: "#F2F3F2"}}>
            <div>
-            <h5 style={{fontWeight: "400"}}>WELCOME TO THE</h5>
+            <h5 style={{fontWeight: "400"}}>WELCOME TO THE HOMEFLEX</h5>
            </div>
            <div>
             <h2>Best Real Estate Agency</h2>
