@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Red+Hat+Display:wght@300;400&display=swap');
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
+p {
+    line-height: 1.625;
+    font-size: 14px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(128, 128, 128)
+}
+.nine {
+    color: rgb(185, 41, 41)
+}
+small{
+    font-size: 12px;
+}
+span small{
+    font-size: 12.5px;
+}
+.carousel{
+    height: 600px;
+}
+.carousel-inner{
+    height: 100%;
+}
+.carousel-item{
+   height: 83%;
+}
+.carousel-indicators{
+    background-color: rgb(233, 233, 233);
+    height: 126px;
+    margin-left: 0;
+    margin-right: 0;
+    bottom: -16px;
+    position: absolute;
+    gap: 20px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 105px;
+    height: 94px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.carousel-indicators button:nth-child(1){
+    background-image: url(/img4.jpg);
+    background-size: cover;
+}
+.carousel-indicators button:nth-child(2){
+    background-image: url(/img6.jpg);
+    background-size: cover;
+}
+.carousel-indicators button:nth-child(3){
+    background-image: url(/img7.jpg);
+    background-size: cover;
+}
+.carousel-indicators button:nth-child(4){
+    background-image: url(/img1.jpg);
+    background-size: cover;
+}
+.carousel-control-prev-icon{
+    background-image: url(/previcon.png);
+}
+.carousel-control-next-icon{
+    background-image: url(/nexticon.png);
+}
+.carousel-item img {
+    height: 100%;
+}
+.carousel-control-prev{
+    position: absolute;
+    width: 5%;
+    z-index: 12;
+    height: 5%;
+    bottom: 79px;
+    top: 525px;
+    left: 40px;
+}
+.carousel-control-next{
+    position: absolute;
+    width: 5%;
+    z-index: 12;
+    height: 5%;
+    bottom: 79px;
+    top: 525px;
+    right: 40px
+}
+.dollar{
+    position: relative;
+    bottom: 25px; 
+    font-weight: 600;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media only screen and (max-width: 1154px){
+    .header {
+        width: 90%;
+    }
+    .flex-container{
+        width: 100%;
+    }
+    .flex-item1{
+        width: 50%;
+    }
+    .flex-item2{
+        width: 50%;
+    }
+    .flex-item4{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-item5{
+        display: flex;
+        flex-direction: column;
+    }
+    .carousel-indicators{
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+}
+@media only screen and (max-width: 918px){
+    .flex-container{
+        width: 100%;
+    }
+    .flex-item1{
+        width: 65%;
+    }
+    .flex-item2{
+        width: 35%;
+    }
+    .flex-item3{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-item4{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-item5{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media only screen and (max-width: 792px){
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        gap: 100px
+    }
+    .flex-item1{
+       display: block;
+       width: 100%;
+    }
+    .flex-item2{
+        display: block;
+        width: 100%;
+    }
+    .news{
+        display: flex;
+        flex-direction: column;
+    }
+}

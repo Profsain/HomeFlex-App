@@ -1,0 +1,33 @@
+.Container {
+    background-color: #0966f3;
+    color: white;
+    display: block;
+    margin-bottom: 0;
+    
+}
+
+
+h2, h1, p, h3, .imageContainer {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 45px;
+}
+p {
+    font-size: 20px;
+}
+
+.imageContainer{
+    padding: 30px;
+}
+
+.image {
+    height: 300px;
+    width: 300px;
+    border-radius: 1000px;
+    object-fit: cover;
+
+    
+}
