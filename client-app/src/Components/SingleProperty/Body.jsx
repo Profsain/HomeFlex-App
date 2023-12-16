@@ -1,4 +1,6 @@
-import Carousel from 'react-bootstrap/Carousel'; //DON'T FORGET TO USE OLA IMAGE IF YOU CAN
+import Carousel from 'react-bootstrap/Carousel';
+import '../SingleProperty/SingleProperty.css'
+
 function Body() {
   return (
     <>
