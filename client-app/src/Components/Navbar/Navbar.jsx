@@ -9,6 +9,7 @@ import './Navbar.css'
 import React from 'react';
 import MegaMenu from './Megamenu';
 import temp_logo from '../Assets/temp_logo.png'
+import { Link, NavLink} from 'react-router-dom';
 
 function Navigation() {
   return (
@@ -23,9 +24,9 @@ function Navigation() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1" className='nav-list'>Home</Nav.Link>
+            <Nav.Link href="#action1" className='nav-list'><Link to="/">Home</Link></Nav.Link>
             <NavDropdown title="Properties" id="navbarScrollingDropdown" className='list'>
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action3"><Link to="SingleProperty">Single Page Property</Link></NavDropdown.Item>
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#action2" className='list'>About</Nav.Link>
@@ -35,7 +36,8 @@ function Navigation() {
             <NavDropdown title="Pages" id="navbarScrollingDropdown" className='list'>
               <MegaMenu />
             </NavDropdown>
-            <Nav.Link href="#" className='list'>Contact</Nav.Link>
+            <Nav.Link  href="#" className='list'><Link to="contact">Contact</Link></Nav.Link>
+          
           </Nav>
           <Form className='list'>
             <Form.Control
