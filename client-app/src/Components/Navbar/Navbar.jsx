@@ -6,10 +6,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Navbar.css'
-import React from 'react';
-import MegaMenu from './Megamenu';
 import temp_logo from '../Assets/temp_logo.png'
-import { Link, NavLink} from 'react-router-dom';
+import { Link} from 'react-router-dom';
 
 function Navigation() {
   return (
@@ -32,9 +30,6 @@ function Navigation() {
             <Nav.Link href="#action2" className='list'>About</Nav.Link>
             <NavDropdown title="Blog" id="navbarScrollingDropdown" className='list'>
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown title="Pages" id="navbarScrollingDropdown" className='list'>
-              <MegaMenu />
             </NavDropdown>
             <Nav.Link  href="#" className='list'><Link to="contact">Contact</Link></Nav.Link>
           
